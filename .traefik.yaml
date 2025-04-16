@@ -1,11 +1,9 @@
-displayName: b64-header-parser
+displayName: "Base64 Header Parser"
 type: middleware
+import: "github.com/sagarrakshe/b64-header-parser"
 iconPath: .assets/icon.png
-
-import: github.com/sagarrakshe/b64-header-parser
-
-summary: 'Parse and decode a base64 header'
-
+summary: "Decodes Base64-encoded headers"
 testData:
   Headers:
-    X-Custom-Header: test-header
+    X-Custom-Header: "SGVsbG8gd29ybGQ="
+
