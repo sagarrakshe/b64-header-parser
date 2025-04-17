@@ -1,4 +1,4 @@
-package plugin
+package b64_header_parser
 
 import (
 	"context"
